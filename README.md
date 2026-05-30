@@ -19,13 +19,13 @@ Syntax highlighting and code folding for `.slm` files in Notepad++.
 | `CALL ASSERT YIELD …` — directives | Yellow (#DCDCAA) |
 | Reserved header keys | Blue (#569CD6) |
 | Type names (`str`, `int` …) | Teal (#4EC9B0) |
-| `=== BLOCK` / `=== /BLOCK` | Purple (#C586C0) |
+| `::SECTION` | Purple (#C586C0) |
 | `~ comment` | Green italic (#6A9955) |
 | Numbers | Light green (#B5CEA8) |
 
 ## Code Folding
 
-Notepad++ will fold `=== BLOCK … === /BLOCK` regions. Use the margin arrows or:
+Notepad++ will fold `::SECTION` regions. Use the margin arrows or:
 - **Fold all**: View → Fold All
 - **Unfold all**: View → Unfold All
 
